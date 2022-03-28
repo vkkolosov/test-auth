@@ -15,7 +15,7 @@ public class AuthController {
         return ResponseEntity.ok("Hello, test-auth");
     }
 
-    @PostMapping("login")
+    @PostMapping("/login")
     public ResponseEntity login(JSONObject Body) {
         return ResponseEntity.ok("Request done");
     }
